@@ -49,15 +49,28 @@ Example prompts:
 - "I want to share a personal story about a mentor I met today."
 - "Write a deep-dive research paper comparing Iceberg and Hudi change queries."
 
-## 🤖 Compatibility
+## 🤖 Cross-Agent Usage
 
-While these skills are optimized for the **Gemini CLI**, the core instructions are written in Markdown and follow best practices that work across all major AI agents, including:
-- **Claude** (via Projects/Artifacts)
-- **ChatGPT** (via Custom GPTs)
-- **Cursor** (via `.cursorrules` or `.mdc` files)
-- **GitHub Copilot**
+While this repository is optimized for the **Gemini CLI**, the instructions are highly portable. Here is how to use these skills in other agents:
 
-## 🤝 Contributing
+### 🎭 Claude (Claude.ai Projects)
+1. Create a new **Project** in Claude.ai.
+2. Upload the `skills/blogger/SKILL.md` and `skills/blogger/references/*.md` files to the **Project Knowledge**.
+3. Claude will automatically use these frameworks as context for your writing tasks within that project.
+
+### 💻 GitHub Copilot / Codex / VS Code
+1. Ensure the skills are in your open workspace.
+2. In **Copilot Chat**, use the `#file` or `#codebase` variable to reference the specific writing style:
+   - *"Help me write a post using the rules in #personal_writing.md"*
+3. For project-wide rules, you can copy the content of the `.md` files into a `.github/copilot-instructions.md` file.
+
+### 🚀 Cursor
+1. This repo includes a `.cursor/rules` directory.
+2. Cursor will automatically detect these rules if you open this folder.
+3. You can also copy the `.md` files into your own project's `.cursorrules` or `.cursor/rules/` folder.
+
+## 📦 Installation
+
 
 Feel free to open issues or PRs to add new skills or improve existing ones.
 
