@@ -1,0 +1,24 @@
+{
+  "name": "@hoaihuongbk/skills",
+  "version": "1.0.0",
+  "description": "Custom AI skills for data engineering, AI, and blogging.",
+  "main": "index.js",
+  "bin": {
+    "huong-skills": "./bin/install.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "gemini",
+    "cli",
+    "skills",
+    "ai"
+  ],
+  "author": "Huong Vuong",
+  "license": "MIT",
+  "dependencies": {
+    "archiver": "^7.0.1",
+    "commander": "^12.1.0"
+  }
+}
