@@ -12,22 +12,21 @@ A comprehensive writing companion that helps you craft engaging content for Link
 
 ## 📦 Installation
 
-You can install all skills in this repository directly using `npx`:
+You can install all skills in this repository directly from GitHub using `npx`:
 
 ```bash
-npx @hoaihuongbk/skills
+npx github:hoaihuongbk/skills --global
 ```
 
-*Note: This will install the skills into your current workspace scope. To enable them, run `/skills reload` in your interactive Gemini session.*
+*Note: Use the `--global` flag to install for all agents (Gemini, Claude, Codex) at the user home level. To install only in the current workspace, omit the flag.*
 
-### Global Installation (User Home)
-To install the skills at the user level (available in all your projects), use the `--global` flag:
+### Local Installation
+If you have cloned the repository locally:
 
 ```bash
-npx @hoaihuongbk/skills --global
+./bin/install.js --global
 ```
 
-*Note: This will install the skills into your `~/.gemini/skills` directory.*
 
 ### Manual Installation
 If you prefer to install a specific skill manually:
