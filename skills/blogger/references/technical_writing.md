@@ -32,6 +32,7 @@ Write to solve a concrete problem for a specific reader persona, with clarity, c
 - Show errors and fixes; don’t hide rough edges.  
 - Add diagrams only when they unlock understanding.  
 - Use meaningful variable names; avoid single-letter identifiers.
+- Follow [anti_slop.md](anti_slop.md) strictly — no significance inflation or hedging stacks; apply the context gate for domain terms like "robust" or "leverage".
 
 ## Distribution checklist
 
@@ -53,6 +54,7 @@ CTA: “Full write-up + code snippets in the blog (link in comment). What would 
 
 ## Pre-publish checklist
 
+- Anti-slop audit complete? (see [anti_slop.md](anti_slop.md) pre-publish checklist)
 - Clear persona + problem in the intro?
 - TL;DR with results and when-not-to-use?
 - Reproducible steps with code + expected outputs?

@@ -27,6 +27,7 @@ Use this when personal posts outperform technical ones. Prioritize human stories
 - Friendly, first-person (“mình/tui/I”).
 - Short sentences, mobile-first spacing. Emojis sparingly, at emotional beats.
 - Prefer everyday examples over heavy theory. Data/diagrams only when pivotal.
+- Follow [anti_slop.md](anti_slop.md) strictly — vary sentence length, cut stock vocab and hedging, max two em dashes per paragraph.
 
 ## LinkedIn promo template (for personal posts)
 
@@ -42,6 +43,7 @@ Attachment: one image/meme/quote card from the post.
 
 ## Publish checklist
 
+- Anti-slop audit complete? (see [anti_slop.md](anti_slop.md) pre-publish checklist)
 - One quoteable takeaway?
 - 3–5 actionable bullets?
 - Soft CTA at the end?

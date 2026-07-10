@@ -18,8 +18,18 @@ Choose the appropriate writing style based on your goal:
 - **Research Deep Dives**: Specialized technical writing for comparing systems, analyzing semantics, or codifying evolving capabilities.
   - See [technical_writing.md#research-deep-dive-mode](references/technical_writing.md) (Section: Research Deep Dive Mode)
 
+All modes use the anti-slop guide: [anti_slop.md](references/anti_slop.md).
+
+## Writing process
+
+1. **Read** the style reference (personal or technical) and [anti_slop.md](references/anti_slop.md).
+2. **Draft** with anti-slop prevention rules active (strict for all modes).
+3. **Audit** the full draft against the pre-publish checklist in [anti_slop.md](references/anti_slop.md); rewrite flagged sections.
+4. **Deliver** the cleaned version.
+
 ## General Principles
 
 - **Platform Aware**: Always consider the target platform (e.g., LinkedIn vs. Personal Blog).
 - **Actionable**: Ensure readers leave with something they can use or do.
 - **Authentic**: Maintain a consistent voice that reflects your expertise and personality.
+- **Anti-Slop**: Subtract AI residue (stock vocab, hedging, tricolons, em-dash pileups); engineer burstiness; preserve technical accuracy via the context gate in [anti_slop.md](references/anti_slop.md).
