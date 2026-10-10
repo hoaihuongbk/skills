@@ -27,7 +27,7 @@ Use this when personal posts outperform technical ones. Prioritize human stories
 - Friendly, first-person (“mình/tui/I”).
 - Short sentences, mobile-first spacing. Emojis sparingly, at emotional beats.
 - Prefer everyday examples over heavy theory. Data/diagrams only when pivotal.
-- Follow [anti_slop.md](anti_slop.md) strictly — vary sentence length, cut stock vocab and hedging, max two em dashes per paragraph.
+- Follow [anti_slop.md](anti_slop.md) strictly: vary sentence length, cut stock vocab and hedging, avoid long hyphens (em dashes, en dashes), and avoid melodramatic reaction tropes (e.g. "khựng lại").
 
 ## LinkedIn promo template (for personal posts)
 

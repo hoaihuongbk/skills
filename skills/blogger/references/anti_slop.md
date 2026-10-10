@@ -47,7 +47,7 @@ Read this file before drafting. Run the audit before delivering any final draft.
 
 | Pattern | Rule |
 | ------- | ---- |
-| **Em dashes (—)** | Max **two per paragraph** (including bullet items). Prefer a period or comma when the clause doesn't need drama. |
+| **Long hyphens (—, –)** | **Avoid completely.** Do not use em dashes (—) or en dashes (–). Use commas, parentheses `()`, colons, or periods instead. Keep punctuation natural and clean. |
 | **Bold spam** | Don't bold every other phrase for emphasis. Bold only terms the reader must scan for (e.g., a warning or key metric once). |
 | **Emoji clusters** | Personal posts: one emoji at an emotional beat is fine; strings of emoji or emoji-as-bullets read like slop. Technical/research: skip emoji unless quoting someone. |
 | **Header stuffing** | Headings state the topic; don't cram adjectives ("Comprehensive Guide to Seamlessly Navigating…"). |
@@ -76,6 +76,7 @@ When in doubt: replace with the specific thing you mean.
 The examples above are English. The same **pattern classes** apply when writing Vietnamese or mixed-language posts (e.g. hedging openers, transition tics at paragraph start, significance inflation, tricolon padding, sycophancy). Apply the principles; don't translate the English list word-for-word.
 
 Common Vietnamese slop shapes to watch for:
+- Melodramatic tropes / artificial reaction tics: "khựng lại", "chết lặng", "ngỡ ngàng", "thảng thốt" (kịch tính hóa gượng gạo; thay bằng miêu tả tự nhiên, chân thật, suy ngẫm bình dị hoặc đi thẳng vào diễn biến).
 - Hedging: "điều quan trọng cần lưu ý", "cần nhấn mạnh rằng"
 - Transition tics: "hơn nữa", "ngoài ra", "tóm lại" as sentence openers every paragraph
 - Inflation: "dấu mốc quan trọng", "bước ngoặt lịch sử" without a specific event
@@ -93,7 +94,8 @@ While writing:
 - [ ] No sycophancy openers or hedging stacks.
 - [ ] No stock vocab unless context gate allows it.
 - [ ] Vary sentence length within each paragraph.
-- [ ] Em dashes ≤ 2 per paragraph.
+- [ ] No long hyphens (em dash —, en dash –).
+- [ ] No melodramatic tropes (e.g. "khựng lại").
 - [ ] Bullets differ in shape; not all "Verb + outcome + with Tool."
 
 ---
@@ -107,8 +109,8 @@ Scan the full draft once per category:
 - [ ] **Hedging & transitions** — stacks and Furthermore/Moreover/In conclusion tics removed?
 - [ ] **Inflation** — pivotal/testament/game-changer/revolutionary replaced with specifics?
 - [ ] **Structure** — tricolon padding, parallel bullet soup, or flat rhythm fixed?
-- [ ] **Symbols** — em-dash cap, bold spam, emoji clusters addressed?
+- [ ] **Symbols** — no long hyphens (—, –), bold spam, emoji clusters addressed?
 - [ ] **Substance** — code, URLs, headings, version numbers, and quotes unchanged?
-- [ ] **Voice** — reads like a person with something to say, not a template?
+- [ ] **Voice** — reads like a person with something to say, not a template? No melodramatic tropes like "khựng lại"?
 
 Fix every failed item. Re-scan. Then deliver.
